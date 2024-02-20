@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="148x148" href="Logo%20Homebrew.png">
+    <title>Homebrew Ordem</title>
+        <link rel="stylesheet" href="formata%C3%A7%C3%A3o%20topnav.css">
+        <link rel="stylesheet" href="formata%C3%A7%C3%A3o%20OeC.css"> 
+        <link rel="stylesheet" href="formata%C3%A7%C3%A3o%20bot%C3%B5es.css">
+</head>
+<body>
+    
+    <style>
+        p {
+            font-size: 110%;
+        }
+        
+        .dropdown .dropbtn {
+            background-color: #B52A2A;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: #B52A2A;
+        }
+    </style>
+    
+    <!-- Div Topnav -->
+    <div class="topnav">
+        <a href="index.html">Início</a>
+            <div class="dropdown">
+                <button class="dropbtn">Criação de Personagem
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20de%20Personagem.html">Passo a Passo</a>
+                    <a href="Cap%C3%ADtulo%201%20-%20Origens.html">Origens</a>
+                    <a href="Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20Combatente.html">Combatente</a>
+                    <a href="Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20Especialista.html">Especialista</a>
+                    <a href="Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20Ocultista.html">Ocultista</a>
+                </div>
+            </div>
+        <a href="Cap%C3%ADtulo%202%20-%20Per%C3%ADcias.html">Perícias</a>
+        <a href="Cap%C3%ADtulo%203%20-%20Equipamento.html">Equipamento</a>
+        <a href="Cap%C3%ADtulo%204%20-%20Regras.html">Regras</a>
+        <a href="Cap%C3%ADtulo%205%20-%20O%20Outro%20Lado.html">Outro Lado</a>
+        <a href="Cap%C3%ADtulo%206%20-%20Mestre.html">Mestre</a>
+        <a href="Cap%C3%ADtulo%207%20-%20Amea%C3%A7as.html">Ameaças</a>
+        <a href="Cap%C3%ADtulo%208%20-%20Combos.html">Combos</a>
+        <p>Feito por Taiocchi</p>
+    </div>
+    
+    <h1 style="text-align: center; color: #B52A2A; font-family: arial black">O que são Origens?</h1>
+    <div style="text-align: justify; padding-left: 85px; padding-right: 85px;">
+        <p><span style="color: #B52A2A; font-family: arial black;">O que seu personagem fazia antes de se envolver com o paranormal e ingressar na Ordem da Realidade?</span> A Origem representa como a vida pregressa influencia sua carreira de investigador. Escolha uma origem que se encaixe com o conceito de seu personagem, e ao escolher uma origem, você recebe duas perícias treinadas e um poder da origem.</p>
+        <h2 style="text-align: center; color: #B52A2A; font-family: arial black">Aprimorando Origens:</h2>
+        <p>Nesse Homebrew há uma possibilidade de que Origens se tornem mais fortes conforme a progressão do jogo. Quando você aprimora a perícia Profissão, além então de receber itens extras de acordo com o aprimoramento da perícia, ela aprimora a sua habilidade de origem.</p>
+    </div>
+    
+    <!--Origens Oficiais-->
+    <h2 style="text-align: center; color: #B52A2A; font-family: arial black; border-bottom: solid 3px; border-top: solid 3px">Origens Oficiais:</h2>
+
+    <button class="accordion">Acadêmico</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era um pesquisador ou um professor universitário.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Ciências e Investigação.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Saber é Poder</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Quando faz um teste usando Intelecto, você pode gastar 2 PE para receber +5 nesse teste.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você pode gastar 3 PE e receber +8 nesse teste.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você pode gastar 4 PE e receber +12 nesse teste.</p>
+    </div>
+
+    <button class="accordion">Agente da Saúde</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era um profissional da saúde como um enfermeiro, farmacêutico, médico, psicólogo ou socorrista, treinado no atendimento e cuidado de pessoas</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Medicina e Vontade.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Técnica Medicinal</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Sempre que cura um personagem, você adiciona seu Intelecto+2 no total de PV curados.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Adiciona seu Intelecto +6 na rolagem de PV curados.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Adiciona seu Intelecto +10 na rolagem de PV curados.</p>
+    </div>
+
+    <button class="accordion">Amnésico</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você perdeu a maior parte da memória. Sabe apenas o próprio nome, ou nem isso. Sua amnésia pode ser resultado de um trauma paranormal ou mesmo de um ritual.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Especial:</span> Se recuperar suas memórias pode trocar sua origem.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Duas a escolha do Mestre.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Vislumbres do Passado</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Uma vez por sessão, você pode fazer um teste de Intelecto (DT 15) para reconhecer pessoas ou lugares familiares, que tenha encontrado antes de perder a memória. Se passar, recebe 1d4 PE temporários e, a critério do mestre, uma informação útil.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Pode receber 1d6+2 PE temporários.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Pode receber 1d8+4 PE temporários, além de usar o poder duas vezes por sessão.</p>
+    </div>
+    
+    <button class="accordion">Artista</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era um ator, músico, dançarino, influenciador...</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Artes e Percepção.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Figurão</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você é famoso por uma de suas obras. Uma vez por missão, pode determinar que um personagem envolvido em uma cena de interação o reconheça. Você recebe +5 em testes de Presença e de perícias baseadas em Presença contra aquele personagem. A critério do mestre, pode receber esses bônus em outras situações nas quais seria reconhecido.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você pode ser reconhecido por 2 pessoas e recebe +10 em testes de perícias baseadas em Presença contra aquele personagem, além de quando usa concretização artística, recebe 2 perícias ao invés de 1.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você pode ser reconhecido por 3 pessoas e recebe +15 em testes de perícias baseadas em Presença contra aquele personagem e quando usa concretização artística, recebe 4 perícias ao invés de 2.</p>
+    </div>
+
+    <button class="accordion">Atleta</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você competia em um esporte individual ou por equipe, como natação ou futebol.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Acrobacia ou Atletismo e Fortitude.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: 110%</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Quando faz um teste de perícia usando Força ou Agilidade você pode gastar 2 PE para receber +5 nesse teste.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Gastando 3 PE pode receber +8 no teste.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Gastando 4 PE pode receber +12 no teste.</p>
+    </div>
+
+    <button class="accordion">Chef</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você é um cozinheiro amador ou profissional.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Fortitude e Profissão.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Ingrediente Secreto</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Em cenas de interlúdio, você pode fazer a ação alimentar-se para cozinhar um prato especial. Você, e todos os membros do grupo que fizeram a ação alimentar-se, recebem o benefício de dois pratos (caso o mesmo benefício seja escolhido duas vezes, seus efeitos se acumulam).<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Quando você faz um prato em cenas de interlúdio, seu grupo recebe o benefício de 3 pratos.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Quando você faz um prato em cenas de interlúdio, seu grupo recebe o benefício de 4 pratos.</p>
+    </div>
+    
+        <button class="accordion">Cientista Florence</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você trabalhava coletando provas para a solução de crimes, seja para a polícia ou seja para uma empresa privada de investigação. Usava métodos e técnicas adquiridos através de uma graduação em uma área científica ou médica.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Ciência e Investigação.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Investigação Ciêntifica</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você pode usar Ciência para substituir perícias como Investigação, Percepção e Intuição.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você pode usar Ciência ao invés de medicina para tirar alguém de morrendo.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Quando troca perícias por Ciência, recebe +5 nesse teste.</p>
+    </div>
+    
+        <button class="accordion">Criminoso</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você vivia uma vida fora da lei, seja como mero batedor de carteiras, seja como membro de uma facção criminosa.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Crime e Furtividade.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Agir na Surdina</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Quando fica furtivo pode gastar 1 PE e receber +2 em uma perícia.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Quando fica furtivo pode gastar 2 PE e receber +5 em uma perícia.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Quando fica furtivo pode gastar 3 PE e receber +10 em uma perícia.</p>
+    </div>
+
+        <button class="accordion">Cultista Arrependido</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você fez parte de um culto paranormal. Talvez fossem ignorantes iludidos, que acreditavam estar contatando entidades benevolentes. Talvez soubessem exatamente o que estavam fazendo. Seja como for, algo abriu seus olhos e agora você luta pelo lado certo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Ocultismo e Religião.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Traços do Outro Lado</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você possui um poder paranormal à sua escolha. Porém, começa o jogo com -5 de sanidade máxima.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Sua DT de Rituais recebe um aumento de +2, ou recebe +5 se sacrificar -2 de sanidade máxima.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Recebe +5 em Ocultismo e +5 em Vontade, ou recebe +8 em cada sacrificando -3 de sanidade máxima.</p>
+    </div>
+    
+        <button class="accordion">Desgarrado</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você não vivia de acordo com as normas da sociedade. Podia ser um eremita, uma pessoa em situação de rua ou simplesmente alguém que descobriu o paranormal e abandonou sua rotina.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Fortitude e Sobrevivência.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Calejado</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe +1 PV para cada 5% de NEX.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +2 PV para cada 5% de NEX.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe +3 PV para cada 5% de NEX.</p>
+    </div>
+    
+                    <button class="accordion">Dublê</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Uma pessoa treinada para passar perigo no lugar de atores, então você já tem um tipo de treinamento e algumas coisas sobre o perigo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Pilotagem e Reflexos.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Destemido</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span>Recebe +5 em testes de perícia quando houver dano ou condição negativa em caso de falha.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Recebe +8 em testes de perícia quando houver dano ou condição negativa em caso de falha.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Recebe +12 em testes de perícia quando houver dano ou condição negativa em caso de falha.</p>
+    </div>
+    
+        <button class="accordion">Engenheiro</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Enquanto os acadêmicos estão preocupados com teorias, você colocar a mão na massa, seja como engenheiro profissional, seja com inventor de garagem.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Tecnologia e Profissão.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Ferramentas Favoritas</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Um item a sua escolha (exceto armas) conta como uma categoria abaixo (por exemplo, um item de categoria II conta como categoria I para você).<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Dois itens a sua escolha contam como uma categoria abaixo.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Três itens a sua escolha contam como uma categoria abaixo.</p>
+    </div>
+    
+        <button class="accordion">Escritor</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você ganha a vida inventando mundos, pessoas e histórias - Em outras palavras escrevendo ficção - . Em certo momento, seu trabalho tocou ou foi tocado pelo Paranormal.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Artes e Atualidades.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Bagagem de Leitura</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Por seu trabalho você já estudou os mais diversos assuntos. Uma vez por Cena você pode gastar 2 PE para se tornar treinado em uma perícia a sua escolha pelo resto da cena.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Uma vez por Cena você pode gastar 3 PE para se tornar veterano em uma perícia a sua escolha pelo resto da cena.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Uma vez por Cena você pode gastar 4 PE para se tornar expert em uma perícia a sua escolha pelo resto da cena.</p>
+    </div>
+
+        <button class="accordion">Executivo</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você possuía um trabalho de escritório em uma grande empresa, banco ou corporação. Era um administrador, advogado, contador ou de qualquer outra profissão que lida com papelada e burocracia.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Diplomacia e Investigação.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Formação Superior</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe +1 de Intelecto. (Esse ponto não forne Perícias ou espaços de Rituais)<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe um número de perícias com o valor que tiver de Intelecto (Se possui 3 de Intelecto, recebe 3 perícias com +3. Essas perícias só podem ser postas em Perícias com Intelecto de base, e se você tiver mais Intelecto do que as perícias, pode colocar mais vezes na mesma. <br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você se torna treinado em todas as perícias que tem Intelecto como base.</p>
+    </div>
+    
+                <button class="accordion">Gaudério Abutre</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">(Sem descrição correta ainda)</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Luta ou Pontaria e Pilotagem.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Fraternidade Gaudéria</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Uma vez por rodada pode receber um ataque que teria como alvo um aliado adjacente. Até seu próxim turno, você recebe +2 em testes de ataque contra o agressor.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Até seu próxim turno, você recebe +6 em testes de ataque e +3 em rolagens de dano contra o agressor.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span>  Até seu próxim turno, você recebe +10 em testes de ataque e +8 em rolagens de dano contra o agressor.</p>
+    </div>
+    
+            <button class="accordion">Ginasta</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você possui um treinamento corporal muito forte e também muita disciplina, com um ginasta sendo muito focado nisso, executando acrobacias e coisas mirabolantes com o próprio corpo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Acrobacia e Reflexos.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Mobilidade Acrobática</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe +2 na defesa e seu deslocamento aumenta em +3m.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +4 na defesa e seu deslocamento aumenta em +4,5m.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe +6 na defesa e seu deslocamento aumenta em +6m.</p>
+    </div>
+    
+        <button class="accordion">Investigador</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era um investigador do governo, como policial federal, ou privado, como um detetive particular.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Percepção ou Intuição e Investigação.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Faro para Pistas</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Uma vez por cena, quando fizer um teste para procurar pistas, você pode gastar 1 PE para receber +5 nesse teste.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você pode gastar 2 PE e receber +10 nesse teste, e passa a poder usar esse teste em outras periciais de investigação como percepção e intuição.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você pode utilizar essa habilidade quantas vezes quiser.</p>
+    </div>
+    
+        <button class="accordion">Jornalista</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você atuava investigando notícias para um jornal, rede de televisão, blog, canal do Youtube e por aí vai.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Investigação e Atualidades.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Fontes Confiáveis</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe um caderno de anotações e nesse caderno contém diversas informações de casos antigos seus. Quando faz um teste de investigação, pode folear 1 vez por cena seu caderno e então gastando 2 PE recebe +5 no próximo teste de investigação. <br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Quando faz um teste de investigação, pode folear 2 vez por cena seu caderno e então gastando 3 PE recebe +8 no próximo teste de investigação e se houver anotações do jogador estiverem deduzindo corretamente a cena de investigação, recebe 1 pista.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Quando faz um teste de investigação, pode folear 4 vez por cena seu caderno e então gastando 4 PE recebe +12 no próximo teste de investigação e se houver anotações do jogador estiverem deduzindo corretamente a cena de investigação, recebe 2 pista.</p>
+    </div>
+    
+            <button class="accordion">Lutador</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você pratica uma arte marcial ou esporte de luta, ou cresceu em um bairro perigoso onde aprendeu briga de rua. Já quebrou muitos ossos, tanto seus quanto dos outros.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Fortitude ou Reflexos e Luta.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Mão Pesada</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe +3 em rolagens de dano com armas corpo a corpo.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +6 em rolagens de dano e +3 em rolagens de ataque com armas corpo a corpo.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe +10 em rolagens de dano, +6 em rolagens de ataque e recebe +1d de dano com armas corpo a corpo.</p>
+    </div>
+    
+            <button class="accordion">Magnata</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você possui muito dinheiro ou patrimônio, pode ser dono de uma grande empresa ou grande negócio</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Diplomacia e Intuição.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Patente Elevada</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe um limite de Patente acima do seu.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe uma modificação extra em um equipamento (Não pode ser uma arma).<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe duas modificações extras em um equipamento (Não pode ser uma arma).</p>
+    </div>
+    
+            <button class="accordion">Mercenário</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você é um soldado de aluguel, que trabalha sozinho ou como parte de alguma organização que vende serviços militares. Escoltas e assassinatos fizeram parte de sua rotina.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Intimidação e Iniciativa.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Posição de Combate</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> No primeiro turno de cada cena de ação, você pode gastar 2 PE para receber uma ação de movimento adicional.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Gastando 4 PE, pode receber duas ações de movimento adicionais.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Se tiver 3 ações de movimento, pode transforma-las em ações padrões.</p>
+    </div>
+    
+                <button class="accordion">Militar</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você serviu em uma força militar, como o exército ou a marinha. Passou muito tempo treinando com armas de fogo, até se tornar um perito no uso delas.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Pontaria e Tática.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Para Bellum</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe +3 em rolagens de dano com armas de fogo.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +3 em furtividade, reflexos e tática, e +6 em rolagens de dano com armas de fogo e pode sacar todas com ação livre.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe +1 de multiplicador de crítico, +4 na margem de ameaça e anula penalidade por rajada.</p>
+    </div>
+    
+                <button class="accordion">Operário</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Pedreiro, industriário, operador de máquinas em uma fábrica… Você passou uma parte de sua vida em um emprego braçal, desempenhando atividades práticas que lhe deram uma visão pragmática do mundo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Fortitude e Profissão.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Ferramentas de Trabalho</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Escolha uma arma simples ou tática que, a critério do mestre, poderia ser usada como ferramenta em sua profissão (como uma marreta para um pedreiro). Você sabe usar a arma escolhida e recebe +1 em testes de ataque, rolagens de dano e margem de ameaça com ela.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Sua ferramenta de trabalho recebe +2 em testes de ataque, rolagens de dano e na margem de ameaça.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Sua ferramenta de trabalho recebe +3 em testes de ataque, rolagens de dano, margem de ameaça e +1 no multiplicador de critico.</p>
+    </div>
+    
+                <button class="accordion">Policial</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você fez parte de uma força de segurança pública, civil ou militar.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Percepção e Pontaria.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Patrulha</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Sempre ao entrar num local desconhecido, gastando 2 PE, você pode rolar um dado de Percepção DT 20, se passar você não pode ser pego desprevenido.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Recebe +3 em testes de resistência.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Recebe +6 em testes de resistência.</p>
+    </div>
+    
+                <button class="accordion">Professor</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você leciona em uma escola ou universidade, ensinando ciências, artes ou qualquer outro campo do saber. Sua profissão é uma das mais nobres de todas, te colocando em contatos com muitas pessoas pessoas e conhecimentos.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Ciências e Investigação.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Aula de Campo</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você sabe extrair o melhor das pessoas. Uma vez por cena pode gastar 2 PE para fornecer +1 Atributo de outro personagem em alcance curto até o fim da cena.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você pode gastar 4 PE para fornecer +1 Atributo de outros  dois personagem em alcance curto até o fim da cena.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você pode gastar 6 PE para fornecer +2 Atributo de outros dois personagem em alcance curto até o fim da cena.</p>
+    </div>
+    
+                <button class="accordion">Religioso</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você é devoto ou sacerdote de uma fé. Independentemente de religião que pratica, se dedica a auxiliar as pessoas com problemas espirituais.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Religião e Vontade.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Acalentar</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe +5 em testes de Religião para acalmar. Além disso, quando acalma uma pessoa, ela recebe um número de pontos de Sanidade igual a 1d6 + a sua Presença.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +8 em testes de religião para acalmar. Quando acalma-la, ela recebe pontos de sanidade igual a 1d8 + a sua presença.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe +10 em testes de religião para acalmar. Quando acalma-la, ela recebe pontos de sanidade igual a 1d10 + a sua presença.</p>
+    </div>
+    
+                    <button class="accordion">Revoltado</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Uma pessoa que cresceu sozinha, talvez por pais que negligenciaram a criação, ou por um acontecimento trágico, você cresceu sozinho e tem um tanto de rebeldia.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Furtividade e Vontade.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Antes só</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Recebe +1 na Defesa, em testes de perícia e no limite de PE por turno quando não tiver nenhum aliado em alcance curto.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Recebe +3 na Defesa, em testes de perícia e no limite de PE por turno quando não tiver nenhum aliado em alcance curto.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Recebe +5 na Defesa, em testes de perícia e no limite de PE por turno quando não tiver nenhum aliado em alcance curto.</p>
+    </div>
+    
+                <button class="accordion">Servidor Público</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você possuía carreira em um órgão do governo, lidando com burocracia e atendendo pessoas.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Intuição e Vontade.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Espírito Cívico</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Sempre que faz um teste de diplomacia ou intuição, gastando 1 PE você recebe +5 em seu teste.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Já tentaram te enganar muitas vezes, então se alguém faz um teste de enganação contra você a pessoa perde em enganação o que você tiver em diplomacia ou Intuição + Presença.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você não pode ser enganado e gastando 2 PE recebe +10 em Diplomacia ou Intuição.</p>
+    </div>
+    
+                <button class="accordion">Teórico da Conspiração</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">A humanidade nunca pisou na lua. Reptilianos ocupam importantes cargos públicos. A Terra é plana... E secretamente governada pelos Illuminati. Você sabe isso tudo, pois investigou a fundo esses importantes assuntos. Você é alguém <span>louco</span> determinado em descobrir as verdades do mundo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Investigação e Ocultismo.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Eu já Sabia</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você não se abala com entidades ou anomalias. Afinal, sempre soube que isso tudo existia. Você recebe resistência a dano mental igual ao seu Intelecto.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe resistência a dano mental igual a seu Intelecto +2<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe resistência a dano mental igual a seu Intelecto +4</p>
+    </div>
+    
+                <button class="accordion">T.I</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Programador, engenheiro de software ou simplesmente “o cara da T.I.”, você tem treinamento e experiência para lidar com sistemas informatizados.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Investigação e Tecnologia.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Motor de Busca</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> A critério do Mestre, sempre que tiver acesso a internet, você pode gastar 2 PE para substituir um teste de perícia qualquer por um teste de Tecnologia<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> A critério e palavra final do mestre, você pode gastar 2 PE para substituir qualquer teste de perícia por Tecnologia.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você não precisa gastar PE para usar a habilidade.</p>
+    </div>
+    
+                <button class="accordion">Trabalhador Rural</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você trabalhava no campo ou em áreas isoladas, como fazendeiro, pescador, biólogo, veterinário... Você se acostumou com o convívio com a natureza e os animais e talvez tenha ouvido uma ou outra história de fantasmas ao redor da fogueira.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Adestramento e Sobrevivência.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Desbravador</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você não sofre penalidade por terreno difícil e quando faz um teste de sobrevivência ou de adestramento, gastando 2 PE, recebe +5 nessa perícia.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Pode substituir perícias como Percepção e Investigação por Sobrevivência, e se estiver em áreas rurais, +5 nesse teste trocado.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Quando está em terreno difícil, você recebe +3 em 2 perícia a sua escolha e +3 de redução de dano.</p>
+    </div>
+    
+                <button class="accordion">Trambiqueiro</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Uma vida digna exige muito trabalho, então é melhor nem tentar. Você vivia de pequenos golpes, jogatina ilegal e falcatruas.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Enganação e Crime.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Impostor</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você pode gastar 2 PE para substituir um teste de perícia qualquer por um teste de Enganação.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você pode gastar 3 PE para substituir um teste de perícia qualquer por um teste de Enganação +5.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você pode gastar 4 PE para substituir um teste de perícia qualquer por um teste de Enganação +10.</p>
+    </div>
+    
+                <button class="accordion">Universitário</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era aluno de uma faculdade. Em sua rotina de estudos, provas e festas, acabou descobrindo algo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Atualidades e Investigação.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Dedicação</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe +1 PE por Rodada e recebe +1 PE a cada NEX impar.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +2 PE por Rodada.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe +3 PE por Rodada e recebe +2 PE a cada NEX impar.</p>
+    </div>
+    
+               <button class="accordion">Vitíma</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Em algum momento de sua vida — infância, juventude ou início da vida adulta — você encontrou o paranormal... E a experiência não foi nada boa. Você viu os espíritos dos mortos, foi atacado por uma entidade ou mesmo foi sequestrado para ser sacrificado em um ritual impedido no último momento. A experiência foi traumática, mas você não se abateu; em vez disso, decidiu lutar para impedir que outros inocentes passem pelo mesmo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Reflexos e Vontade.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Cicatrizes Psicológicas</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe +1 de Sanidade para cada 5% de NEX, e caso venha a enfrentar uma criatura ou grupo que provocou você ter essa origem, você recebe 5 de redução de dano mental contra ela.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +2 de Sanidade para cada 5% de NEX.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span>Você recebe +3 de Sanidade para cada 5% de NEX.</p>
+    </div>
+    
+    <!--Origens Homebrew-->
+    <h2 style="text-align: center; color: #B52A2A; font-family: arial black; border-bottom: solid 3px; border-top: solid 3px">Origens Homebrew:</h2>
+
+               <button class="accordion">Agente sem Afiliação</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você já sabia que o Paranormal existia, fosse por qualquer motivo, mas você não sabia que existiam grupos que lutavam contra essas coisas, ou só não queria fazer parte deles. Você então se virava para lutar sozinho contra essas criaturas, o que te forneceu muita experiência e também muitas cicatrizes...</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Luta ou Pontaria e Ocultismo
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Sem Assistência</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Se você enfrentar uma criatura sozinho (Nenhum membro da equipe fizer algo como ataca-la, aplicar um efeito que a enfraqueça ou usar algo que te fortaleça), você rola 1d4 para receber um efeito que te ajuda na luta. Tirando 1 recebe +3 em rolagens de ataque, tirando 2 recebe +3 de redução de dano, tirando 3 recebe 3 de redução de dano mental, e tirando 4 recebe 2 efeitos.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você se fortalece e recebe uma melhora nas suas habilidades. Tirando 1 recebe +6 em rolagens de ataque e +3 em rolagens de dano, tirando 2 recebe +5 de redução de dano e +2 na Defesa, tirando 3 recebe 5 de redução de dano mental e +2 em DT de Rituais, e tirando 4 recebe 2 efeitos.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você chega no apse do que consegue fazer sozinho, se tornando uma maquina com suas habilidades. Tirando 1 recebe +10 em rolagens de ataque e +6 em rolagens de dano, tirando 2 recebe +8 de redução de dano e +5 na Defesa, tirando 3 recebe 8 de redução de dano mental e +5 em DT de Rituais, e tirando 4 recebe todos os efeitos.</p>
+    </div>
+    
+               <button class="accordion">Artesão</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Sua profissão é algo dos tempos antigos e praticamente morta hoje em dia, mas ainda assim, você está aqui e seu trabalho é sensacional. Você cria itens que chamam a atenção por sua qualidade e durabilidade, então alguém com talento como você é extremamente útil.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Profissão e Fortitude ou Percepção.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Qualidade de Trabalho</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Em cenas de interlúdio você pode pegar um item seu ou de um aliado e fazer uma modificação que dura até o fim da missão (Essas modificações não mudam a categoria do item). Você gasta uma ação de interlúdio e 2 PE para isso, além de ter que fazer um teste de Profissão DT 20.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você gasta uma ação de interlúdio e 4 PE para fazer até duas modificações, seja no mesmo item ou em itens diferentes, você precisa fazer um teste de Profissão DT 25 para conseguir fazer as duas modificações.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você gasta uma ação de interlúdio e 6 PE para fazer até três modificações, seja no mesmo item ou em itens diferente, você precisa fazer um teste de Profissão DT 30 para conseguir fazer as três modificações.</p>
+    </div>
+    
+                   <button class="accordion">Assombrado</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Todo mundo tem um segredo, o seu é obscuro. Algum ancestral seu foi praguejado ou amaldiçoado por algum tipo de entidade paranormal, e isso perseguiu você até sua vida corriqueira a qual aparentemente deveria ser normal. Você ganhou dons e a realidade precisa deles.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Intuição e Religião ou Ocultismo.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Premonição</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Uma vez por sessão pode gastar 2 PE para fazer um teste de intuição e tentar saber quantas rodadas de investigação você tem restante (DT 10 +5 por rodada faltante). Caso o que está prestes a acontecer seja algum acontecimento envolvendo o paranormal, você secretamente recebe +5 no teste de intuição, e caso você tire 10 acima da DT necessária, o mestre pode escolher te revelar um detalhe do que vai acontecer.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> O custo para usar a habilidade cai para 1 PE e pode ser usada 2 vezes por Cena. Quando tentar saber quantas rodadas de investigação você tem restante, o teste se torna DT 10 + 4 por cada rodada restante.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Para usar a habilidade não tem mais custo e pode ser usada quantas vezes quiser. Quando tentar saber quantas rodadas de investigação você tem restante, o teste se torna DT 10 + 2 por cada rodada restante.</p>
+    </div>
+    
+                   <button class="accordion">Ativista</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você é um militante do tipo que não ﬁca calado diante de uma injustiça que é feita pelos políticos ou por qualquer pseudo autoridade que esteja no mundo. Você apenas deseja que de acordo com seus ideais, as coisas estejam certas.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Diplomacia e Vontade.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Tudo pela Causa</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você luta pelo o que acredita até não poder mais. Mesmo prestes a cair se recusa a ser derrubado. Uma vez por dia, caso ﬁque com 0 de PV ou 0 de SAN faça um teste de Vontade DT 20 para enlouquecendo ou Fortitude DT 20 para morrendo, se passar ﬁca com 1 de PV ou 1 de SAN<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Quando passa no teste, ao invés de ficar 1 PV ou SAN, você fica com 1d6+VIG ou PRE dependendo da condição.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Quando passa no teste, ao invés de ficar com 1d6 na rolagem, você fica com 1d12+VIG ou PRE dependendo da condição.</p>
+    </div>
+    
+                   <button class="accordion">Caçador</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era alguém que vivia da caça, seja para se alimentar, como esportista ou para apenas ganhar sustento. Suas habilidades de sobrevivência são notáveis, tão quanto suas de rastreamento e de abate de suas vítimas.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Sobrevivência e Atletismo ou Pontaria.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Caçada</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você gastando 1 PE marca um alvo como sua caça. Você passa a ter +3 rolagens de ataque e dano contra esse alvo.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Gastando 3 PE, quando marca um alvo como sua caça e usa a ação mirar, recebe +5+Agilidade em testes de pontaria e aumenta o dano para +5.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Gastando 5 PE, aumenta o dano para +8, o bônus por mirar em +8+Agilidade e estiver usando armas como Bestas e Arcos, recebe +2d de dano.</p>
+    </div>
+    
+                   <button class="accordion">Cientista</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era um cientista de alguma área que de alguma forma, durante experimentos notou que haviam coisas que iam contra tudo o que você sabia, ou que era registrado pela ciência. Você movido pela sua curiosidade infinita, passou a investigar essas anomalias.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Ciências e Vontade.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Pesquisa Precisa</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Conhecimentos focados e estudos rigorosos em ciência são recompensados, seja por estudar em uma faculdade extremamente respeitada, ou por ser um cientista renomado. Quando escolhe uma área da ciência como seu foco, você recebe +5 em testes de ciências quando usa essa área.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Quando usa sua área de foco da ciência, recebe +10 em seus testes.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Quando usa sua área de foco da ciência, recebe +15 em seus testes.</p>
+    </div>
+    
+                   <button class="accordion">Comunicador</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era um diretor de marketing, locutor de rádio ou um tipo de embaixador que precisava utilizar sua lábia.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Diplomacia e Enganação. 
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Sangue Bom</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você faz amigos por todos os lugares onde passa, todos gostam de te ter ao redor. Graças a isto, todos os NPCs tem um nível melhor de atitude para com você. Além disso, ao fazer um teste de Diplomacia para mudar a atitude de um NPC mesmo que tire -5, a atitude dele não se torna ruim em relação a você<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> NPCs nunca ficam com o nível de atitude hostil com você.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> O menor nível de atitude que podem ficar com você é indiferente.</p>
+    </div>
+    
+                   <button class="accordion">Corajoso</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você sempre foi o tipo de pessoa que quando há um problema o resolvia de maneira direta, fosse um problema físico ou de outra natureza. Quanto mais problemas estiverem na sua frente, mais você sabe que é seu dever resolve-los, então você com corajosamente quer resolver tudo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Vontade e Fortitude. 
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Resolver com Coragem </span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Quando está numa cena de investigação, você recebe vantagem de +2 por cada elemento que possa ser investigado em cena.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Em cenas de combate, a cada 1 inimigo que houver numa área de 10m, você recebe +1 a sua escolha em luta ou pontaria, ou reflexos ou fortitude.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Aprimora as duas habilidades anteriores, com cada elemento a ser investigado fornecendo +4 em investigação e a cada inimigo em 30m te fornecendo um bônus de +2.</p>
+    </div>
+    
+                   <button class="accordion">Estilista</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você trabalhou como modelo, cabeleireiro, maquiador ou semelhante, tendo muita experiência nas artes do embelezamento humano. Por isso, tem habilidades de fazer looks maravilhosos e se disfarçar como ninguém.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Artes e Enganação. 
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Vestido para Matar</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você já fez todos os tipos de maquiagem e já se vestiu das formas mais inusitadas possíveis. Graças ao costume em se produzir para ser a estrela da noite você recebe +1D em testes de disfarce e pode escolher uma Vestimenta para ser sua favorita. Aprimoramento dela muda de +5 para +10.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +2D em testes de disfarce e sua Vestimenta favorita quando multi uso, recebe 2 perícias extras ao invés de apenas 1.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe +3D em testes de disfarce e a categoria da sua Vestimenta favorita cai igual ao valor de metade de sua presença.</p>
+    </div>
+    
+                   <button class="accordion">Ex-Presidiário</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você passou grande parte da sua vida na prisão, tendo sofrido com as péssimas condições de tratamento e as imundas celas lotadas de pessoas. Por ter sobrevivido nessa situação, você se acostumou com a dureza da vida e com a triste realidade da mesma.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Crime e Sobrevivência ou Fortitude.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Vivende de Migalhas</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Por toda a comida de péssima qualidade que teve que comer em sua vida na prisão, você se acostumou com muito pouco. Em cenas de interlúdio, qualquer comida que você coma, contará como uma das comidas especiais.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Quando se alimenta (Até mesmo fora de interlúdios), automaticamente recebe +5 em uma perícia a sua escolha.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Passa a receber duas perícias +5 quando se alimenta.</p>
+    </div>
+    
+                   <button class="accordion">Exorcista</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Um tipo de trabalho muito comum em algumas igrejas era o seu. Você orava, jejuava e buscava iluminação para que tivesse poder suﬁciente para expulsar demônios.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Religião e Ocultismo.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Exorcizar</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você soma religião em rolagens de dano de rituais.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você pode usar religião ao invés de fortitude quando bloqueia.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Receber um número extra de PV igual sua religião.</p>
+    </div>
+    
+                   <button class="accordion">Grafiteiro</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você é um artista de rua que faz artes plasticas pela cidades, muitas vezes fazendo criticas com sua arte ou apenas tentando fazer algo bom, talvez embelezando o lugar, mas você sofre constantemente discriminação por esse tipo de arte e aprendeu a blindar sua mente para as reclamações das pessoas.
+</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Artes e Atletismo
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Visão Discriminatória</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> As pessoas não veem sua arte com bons olhos, quase sempre vem te perguntar se você tem autorização pra o que está fazendo, ou apenas tentam depredar as suas artes. Você se acostumou a lidar com momentos assim e quando tentam te intimidar, quem tentar recebe -5 no teste.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você não pode ser intimidado e quando faz um grafite, recupera 2 pontos de Sanidade.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recupera 4 pontos de sanidade quando faz uma arte.</p>
+    </div>
+
+                   <button class="accordion">Marinheiro</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era um homem do mar, fosse bucaneiro, navegador, pirata, ou mergulhado, o que for relacionado ao mar poderia se aplicar.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Sobrevivência e Atletismo.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Mar Aberto</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você ignora a penalidade de gastar uma ação de movimento e fazer um teste de Atletismo por rodada para não afundar enquanto está nadando, além de quando prende a respiração enquanto está sufocando ou debaixo d'água, recebe 1 rodada extra.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe +5 em pilotagem com veículos aquáticos e pode realizar seu deslocamento normalmente dentro da água, além de não receber penalidades em usar armas dentro dela.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe uma ação padrão e de movimento extra quando está na água.</p>
+    </div>
+    
+                   <button class="accordion">Piloto</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você era alguém que dirigia ou pilotava algum meio de transporte, fosse uma moto, carro, barco ou aeronave, você tinha habilidade para manusear um veiculo com muita maestria.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Pilotagem e Reflexo.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Atenção na Estrada</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você se concentra para aonde está indo ou o que está no caminho. Gastando 2 PE você recebe +1D quando está pilotando algum veículo.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Gastando 3 PE você recebe +2D quando está pilotando algum veículo.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Gastando 4 PE você recebe +3D quando está pilotando algum veículo.</p>
+    </div>
+    
+                   <button class="accordion">Político</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Mensalão, petrolão, propina, delação premiada, orçamento secreto. Você faz parte do mundo da política que está cheio de serpentes e você sempre aprendeu a lidar com pessoas assim, além de usar das mesmas artimanhas, a política é uma bolha na qual você tem bastante inﬂuência, sempre tomou o devido cuidado para não entrar em esquemas errados de políticos sujos.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Enganação e Profissão.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Uma Mão Lava Outra</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> O dinheiro que tem ao seu dispor sempre te ajudou a conquistar o que queria. Sempre que estiver em uma cena que dependa de interação com NPCS para adquirir informações, você pode subornar a pessoa para adquirir sucesso aumático dependo do NPC. Este dinheiro teve que sair de algum lugar, por isso, aleatoriamente um dos personagens do seu grupo começa a próxima missão com 1 item de prestígio I a menos.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe 2 Itens de profissão ao invés de apenas 1.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe 3 Itens de profissão ao invés de dois.</p>
+    </div>
+    
+    <!--Origens Homebrew Especiais-->
+    <h2 style="text-align: center; color: #B52A2A; font-family: arial black; border-top: solid 3px; margin-bottom: 0px;">Origens Homebrew Especiais:</h2>
+    <p style="text-align: center; color: #B52A2A; font-family: arial black; border-bottom: solid 3px; margin-top: 5px;">(Origens especiais, pois são homenagens a personagens marcantes das mesas que o criador do site participou)</p>
+    
+                    <button class="accordion">Arrependido</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você não acha que é uma boa pessoa, talvez tenha cometido muitos erros, ferido pessoas que achava que eram importantes para você, ou simplesmente ocorreram tantas coisas que fazem você questionar se você tivesse feito algo diferente... O quão diferente seriam as coisas?</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Vontade e Atletismo
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Cumprir seu Dever</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você não quer cometer mais erros, então quando lhe confiam uma missão, você faz uma promessa, ou o que quer que seja, você tem que fazer dessa vez dar certo... Quando sobre uma dessas condições, pode escolher durante esse tempo uma perícia para receber +3 em suas rolagens.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você passa a receber 2 perícias durante essas condições, que aumentam para +6.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você passa a receber 3 perícias durante essas condições, que aumentam para +9.</p>
+    </div>
+    
+                   <button class="accordion">Estrangeiro</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você não é realmente daqui, você veio de outro lugar e isso impactou muito sua vida, positivamente ou negativamente. Você pode ter encontrado sustentabilidade nesse novo lugar, ou pelo contrário, as dificuldades da sua vida estavam apenas começando... De qualquer forma você está acostumado com mudança e se adaptar a novas situações.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Intuição e Atualidades
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Adaptação</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você passou ou tem passado por momentos não muito bons na sua vida, fossem eles esse tempo de choque cultural, ou realmente ter passado por más condições, mas de qualquer forma, você teve que aprender muitas coisas novas, forçando você a conviver mais e entender as pessoas desse novo lugar que você está em volta, então uma vez por cena, você pode rolar um teste de atualidades para substituir um teste social.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Tempo tem se passado e realmente você tem se adaptado a essa nova realidade, aprendendo muito mais coisas sobre sua cultura e o jeito que as coisas no geral funcionam dentro desse novo ambiente, talvez você o entenda melhor do que algumas pessoas que já estão aí. Você passa a poder usar atualidades em testes de investigação.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Praticamente está totalmente adaptado a essa realidade, então você sabe muitas coisas a essa altura da sua vida, fazendo você receber +6 em atualidades quando usa suas habilidades.</p>
+    </div>
+
+                    <button class="accordion">Monge</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você vivia afastado do mundo em devoção a sua religião, ou buscando apenas aprendizado e iluminação, mas num geral, por essa caminhada em locais calmos também te trouxe muito aprendizado, com você tendo que treinar muito seu corpo e sua mente.</span>
+        <p><span style="font-family: arial black"></span>
+            <br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Religião e Luta ou Fortitude
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Caminho para Iluminação</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você através de muitos ensinamentos agora busca entender as coisas muito além do que elas são, você passa a enxergar o que não via antes e a vida tende a se tornar mais calma... Você pode usar religião ao invés de percepção e intuição.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Igualmente sua mente, você tem que entender seu corpo e você se aprimora nisso. Quando ataca com armas corpo a corpo, recebe +5 em rolagens de ataque.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Juntando os dois, você chega ao que devem chamar de iluminação, então você está com a mente e o corpo em harmonia. Você pode somar Presença em suas rolagens de Força, Agilidade e Vigor, e pode somar Vigor em testes de Presença e Intelecto..</p>
+    </div>
+    
+                    <button class="accordion">Ninja</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você é alguém quieto e que sabe usar o silêncio como uma arma. Você luta de formas diversas, seja a distância ou de perto, mas de qualquer forma você pode tentar tirar proveito das suas técnicas para ter um combate mais seguro para você.</span>
+        <p><span style="font-family: arial black"></span>
+            <br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Furtividade e Tática
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Manter-se Quieto</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe o Poder de Trilha de Especialista Ataque Furtivo (Se escolher essa Trilha, recebe +1D de dano quando usa a habilidade).<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você sabe que para tirar vantagem enquanto luta é preciso examinar o campo de batalha, então você vai fazer isso da melhor forma possível. Quando usa tática para analisar o terreno, você pode debater com seu mestre sobre receber uma vantagem em algum tipo de quesito. (Pode ser um bônus numa perícia ou o que achar plausível)<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe +5 em Furtividade e quando mata um inimigo usando Ataque Furtivo, recebe +1d10+Agilidade em rolagens de dano.</p>
+    </div>
+    
+                   <button class="accordion">Samurai</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você pode ser dessa época ou não, mas a ideia é a mesma, você é essa figura que segue ou não um líder e resolve seus problemas cotidianos, tendo honra ou não. Você quer sempre aprimorar suas técnicas e se tornar mais forte para sair das situações que esse mundo te jogar.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Luta e Fortitude
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Caminho da Espada</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe proficiência com katanas, e pode usar Força se quiser nas suas rolagens de ataque, mas no geral você ainda tem que saber e aprender muito ainda, a perfeição está longe de você e é necessário alcança-la. Você recebe o Poder de Combatente Combater com Duas Armas.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Continuando nesse caminho, você se aperfeiçoou e agora está ainda mais habilidoso. Você perde a penalidade de -1D de Combater com Duas Armas.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Parece que ao fim de tudo, você está próximo do fim, você se tornou extremamente habilidoso com o uso de suas armas e as usa de formas eficientes. Você recebe +1D em Rolagens de Ataque quando usa Combater com Duas Armas e +3 de redução de dano.</p>
+    </div>
+    
+                   <button class="accordion">Traidor</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você é alguém de má índole, você é alguém que tem um proposito de fazer algo errado... Se as coisas vão dar certo ou não, isso não importa, você quer se divertir e você gosta de ver o desespero alheio, mas da mesma forma que você quer ver as coisas ruindo, você tem que manter escondido esse seu lado...</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Especial:</span> Você pode usar uma 2ª origem enquanto usa essa para não levantar suspeitas aos outros jogadores e quando ser descoberto, perde todas suas habilidades e perícas da origem falsa.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Enganação e Diplomacia
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Felicidade na Desgraça</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Quando algo dá errado, você vai se sentir extremamente contente com isso ter ido ao fracasso, uma vez por cena, você diz de algum jeito discreto para seu Mestre algo que você acha que pode dar errado durante essa cena, seja um aliado falhar um teste, levar dano ou morrer. Se essa condição der certo, você recupera 1d4 de sanidade que seu mestre tem que narrar de alguma forma que mascare o real motivo de estar recuperando sua sanidade, ou você a recupera em outra cena mais convincente.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você pode escolher recuperar sanidade ou reduzir um dano que sofrer pela metade.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você pode escolher entre as duas outras habilidades, ou ao invés disso, poder passar num teste automaticamente.</p>
+    </div>
+
+                    <button class="accordion">Veterano</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você já está na luta contra o Paranormal a muito tempo, e isso já fez você ver coisas que fariam qualquer um ter desistido, mas você ainda está aqui. Você quer evitar que novas pessoas passem o que você já passou, evitar sofrimento e dor, além de mais perdas... Você é quem pode guiar novos agentes para um futuro incerto, mas que você ainda espera ser bom.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Vontade e Luta
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Cansaço Emocional</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você já perdeu muito e sabe que essa luta ainda vai estar longe de acabar, você já está farto de tudo, mas ainda assim tem que continuar. Quando um aliado morre, você recebe metade do dano metal e recebe um bônus extra de Espiração Resoluta se estiverem usando essa habilidade normalmente.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Da mesma forma que você já perdeu muitas pessoas, você já enfrentou muitos perigos. Se enfrentar uma criatura (acima de 150 VD) que já tenha enfrentado no passado, pode escolher receber +5 em rolagens de ataque e dano, ou +5 na resistência a dano contra ela.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você já viu um pouco de tudo na verdade, tanto de seus aliados quanto de monstros, mas você continua de pé sem se importar, você já se desgastou muito e sua vontade é o que te mantém de pé, fazendo você poder usar Vontade no lugar de qualquer perícia.</p>
+    </div>
+
+    <!--Origens Únicas-->
+    <h2 style="text-align: center; color: #B52A2A; font-family: arial black; border-top: solid 3px; margin-bottom: 0px;">Origens Únicas:</h2>
+    <p style="text-align: center; color: #B52A2A; font-family: arial black; border-bottom: solid 3px; margin-top: 5px;">(Origens Únicas só podem haver uma dessas por mesa de RPG, a menos que seja para inimigos como as Organizações Paranormais)</p>
+    
+                   <button class="accordion">Filho da Realidade</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Existem pessoas que possuem afinidade com o outro lado, que são praticamente escolhidos pelas entidades para carregarem poderes que vão muito além de pessoas comuns que utilizam do Outro Lado para se tornar mais forte. Você entretanto, não possui nada com o Paranormal, sua existência é totalmente menosprezada por ele, que não pretende te favorecer de forma alguma. Você possui apenas poderes da realidade e é incapaz de aprender Ocultismo.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Duas perícias a escolha do jogador, menos ocultismo.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Corpo Real</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você é incapaz de transcender ou receber poderes do Outro Lado, apenas usar itens paranormais, então você foca no que você pode fazer com o que a realidade te oferece. Você recebe +1 Atributo em Força, Agilidade, ou Vigor, recebendo todos seus benefícios, e seu limite de Atributo passa a ser 6 distribuindo normalmente.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Escolha entre Força, Agilidade, ou Vigor. Você recebe +1 perícia a cada ponto no atributo escolhido, que também aumenta o número de perícias que podem ser melhoradas.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Recebe +2 Atributos para distribuir.</p>
+    </div>
+    
+                   <button class="accordion">Reencarnação</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Desde que você se entende por gente sentiu algo estranho dentro de você, como se simplesmente houvesse sempre algo que estranhasse na sua vida cotidiana, mas quando conheceu o Outro Lado, você descobriu algo, você já viveu antes, essa não é a primeira vez que está aqui. Você é a reencarnação de alguém que já passou por essa terra, e agora cabe a você decidir que tentará ser quem você já foi, ou traçar um novo caminho.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Uma perícia do jogador (Vida Atual) e uma perícia do mestre (Vida Anterior)
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Retomar quem Foi</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você recebe um poder de classe adicional, cujo qual seria da sua vida passada, mas o mestre escolhe esses poderes.<br>
+            <span style="color: #B52A2A; font-family: arial black">Veterano:</span> Você recebe um 2º poder de classe adicional.<br>
+            <span style="color: #B52A2A; font-family: arial black">Expert:</span> Você recebe um 3º poder de classe adicional.</p>
+    </div>
+    
+                   <button class="accordion">Transtornados</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Os transtornados te convidaram para participar do culto ao Diabo, e de alguma forma extremamente misteriosa você aceitou, e durante uma missão de extermínio da ordem você se rendeu e pedindo por misericórdia, se aliou a Ordo Realitas. Agora, desfazer seus pecados não é uma opção.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Ocultismo e Fortitude.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Pacto</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você teve um desejo realizado pelo Pacto com o Diabo, mas ele foi destorcido e essa habilidade agora te seguirá para sempre na agoniante maré de emoções do Sangue. (Por exemplo, se você desejava ser mais forte fisicamente, você recebe +1 Atributo em Força, mas sempre que usa esse atributo como base, sofre 2 de dano).<br>
+    </div>
+    
+                   <button class="accordion">Agente do Caos</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você já trabalhou com uma das várias produções do Anﬁtrião. Você acabou percebendo que o que vocês faziam era algo horrível e por causa disso decidiu se afastar, porém o caos na sua mente nunca vai te abandonar mesmo sendo o inimigo dele e talvez por isso te atormente.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Ocultismo e Reflexos.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Aleatoriedade Pura</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você pode ter largado os ideais do caos, porém o caos quer brincar com você! Todo começo de Interlúdio você roda 1d20, cada número se baseia em um tipo de dano. Balistico 1, Cinzas 2, Conhecimento 3, Corte 4, Corrente 5, Floral 6, Impacto 7, Mental 8, Morte 9, Onda 10, Pedregulho 11, Perfurante 12, Sangue 13, Quimico 14, Recebe 2 Resistências 15-18 (Role mais vezes até cair em números menores que 15), Recebe 3 Resistências 19-20 (Role mais vezes até cair em números menores que 15).<br>
+    </div>
+    
+                   <button class="accordion">Luzídio</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você morou em um Santo Berço, dando constantemente Energia Potencial para o Parasita de Dimensões, em algum momento a Ordem achou esse berço (ou você conseguiu sair por conta própria) e você estava nele, querendo ajudar pessoas a evitar que passassem pelo mesmo que você.</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Sobrevivência e uma a sua escolha.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Energia Potencial</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> Você sempre tem energia potencial que pode ser gasta durante o dia, fazendo você possuir 5 ações padrões extras por dia que podem ser usadas a qualquer hora gastando 2 PE.<br>
+    </div>
+    
+                   <button class="accordion">Renegado das Máscaras</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Sua presença perturba o equilíbrio e as máscaras foram atrás de sua presença, você aceitou o acordo e acabou entrando na grande mente coletiva das máscaras, de alguma maneira que você não sabe, esse acordo foi quebrado e você retornou a consciência</span>
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Perícias:</span> Ocultismo e Luta ou Pontaria.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">Habilidade: Acordo</span><br>
+            <span style="color: #B52A2A; font-family: arial black">Origem:</span> você ganha uma Máscara das pessoas nas sombras esse item não conta no seu limite de prestígio. O conhecimento quer e não quer que você enlouqueça, você sabe demais porém ainda não se lembra por completo. A cada ponto de dano mental que receber, pode escolher entre receber +3 em rolagens de dano, ataque, ou redução de dano.<br>
+    </div>
+    
+        <!--Script Botões-->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+        </script>
+    
+</body>
+</html>

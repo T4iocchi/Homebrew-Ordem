@@ -1,0 +1,117 @@
+body {
+        margin: 0;
+        background-color: #111;
+        font-family: Arial;
+        color: floralwhite;
+        }
+
+.topnav {
+        overflow: hidden;
+        font-family: arial black;
+        border-bottom: solid;
+        border-bottom-color: #B52A2A;
+        background-color: #222;
+        }
+
+.topnav a {
+        float: left;
+        color: floralwhite;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;  
+        }
+           
+.topnav a:hover {
+  color: #B52A2A;
+}
+
+.topnav a.active {
+  background-color: #B52A2A;
+  color: floralwhite;
+}
+
+.topnav p {
+        float: right;
+        color: floralwhite;
+        text-align: center;
+        padding: 0px 12px;
+        text-decoration: none;
+        font-family: arial black;
+        font-size: 95%;
+}
+
+
+/* Topdown */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+.navbar a {
+  float: left;
+  font-family: Arial Black;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: floralwhite;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Arial Black;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: inherit;
+  color: floralwhite;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 3px solid;
+  border-color: #B52A2A;
+}
+
+.dropdown-content a {
+  float: none;
+  color: floralwhite;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #B52A2A;
+    border-radius: 5px;
+}

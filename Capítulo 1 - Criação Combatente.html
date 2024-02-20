@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="148x148" href="Logo%20Homebrew.png">
+    <title>Homebrew Ordem</title>
+        <link rel="stylesheet" href="formata%C3%A7%C3%A3o%20topnav.css">
+        <link rel="stylesheet" href="formata%C3%A7%C3%A3o%20OeC.css"> 
+        <link rel="stylesheet" href="formata%C3%A7%C3%A3o%20bot%C3%B5es.css">
+</head>
+<body>
+    
+    <style>
+        p {
+            font-size: 110%;
+        }
+        
+        .dropdown .dropbtn {
+            background-color: #B52A2A;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: #B52A2A;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 41%;
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+        td, th {
+            border: none;
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #222;
+        }
+        
+        .tabela span {
+            float: left;
+            padding-left: 50px;
+        }
+    </style>
+    
+    <!-- Div Topnav -->
+    <div class="topnav">
+        <a href="index.html">Início</a>
+            <div class="dropdown">
+                <button class="dropbtn">Criação de Personagem
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20de%20Personagem.html">Passo a Passo</a>
+                    <a href="Cap%C3%ADtulo%201%20-%20Origens.html">Origens</a>
+                    <a href="Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20Combatente.html">Combatente</a>
+                    <a href="Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20Especialista.html">Especialista</a>
+                    <a href="Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20Ocultista.html">Ocultista</a>
+                </div>
+            </div>
+        <a href="Cap%C3%ADtulo%202%20-%20Per%C3%ADcias.html">Perícias</a>
+        <a href="Cap%C3%ADtulo%203%20-%20Equipamento.html">Equipamento</a>
+        <a href="Cap%C3%ADtulo%204%20-%20Regras.html">Regras</a>
+        <a href="Cap%C3%ADtulo%205%20-%20O%20Outro%20Lado.html">Outro Lado</a>
+        <a href="Cap%C3%ADtulo%206%20-%20Mestre.html">Mestre</a>
+        <a href="Cap%C3%ADtulo%207%20-%20Amea%C3%A7as.html">Ameaças</a>
+        <a href="Cap%C3%ADtulo%208%20-%20Combos.html">Combos</a>
+        <p>Feito por Taiocchi</p>
+    </div>
+    
+        <!-- Div O que é Combatente -->
+        <h2 style="text-align: center; color: #B52A2A; font-family: arial black">O que é a classe combatente?</h2>
+        <div style="text-align: justify; padding-left: 85px; padding-right: 85px;">
+            <p><span style="color: #B52A2A; font-family: arial black;">Sua classe indica o treinamento que você recebeu na Ordem para enfrentar os perigos do Outro Lado.</span> Em termos de jogo, é a sua característica mais importante, pois define o que você faz e qual é o seu papel no grupo de investigadores. Ordem Paranormal RPG contém três classes, que representam os principais arquétipos de heróis em histórias de terror e suspense, com esse sendo o <span style="color: #B52A2A; font-family: arial black;">Combatente.</span></p>
+            <p style="text-align: center; font-size: 130%"><span style="color: #B52A2A">"</span>Você foi treinado para lutar com todo tipo de armas, e com a força e a coragem para encarar os perigos de frente, É o tipo de agente que prefere abordagens mais diretas e costuma atirar primeiro e perguntar depois<span style="color: #B52A2A">"</span></p>
+            <p>Do mercenário especialista em armas de fogo até o perito em espadas, combatentes apresentam uma gama enorme de habilidades e técnicas especiais que aprimoram sua eficiência no campo de batalha, tornando-os membros essenciais em qualquer missão de extermínio. Além de treinar seu corpo, o combatente também é perito em liderar seus aliados em batalha e cuidar de seu equipamento de combate, sempre preparado para assumir a linha de frente quando a coisa fica feia.</p>
+        </div>
+
+        <h2 style="text-align: center; color: #B52A2A; font-family: arial black">Caracteristicas</h2>
+        <!-- Div Caracteristicas -->
+        <div style="text-align: justify; padding-left: 85px; padding-right: 85px; font-size: 125%;">    
+            <p style="border-bottom: solid 2px; border-bottom-color: #B52A2A; text-align: center; margin-bottom: 0;">PV iniciais: 20 <span style="color: #B52A2A">|</span> PE iniciais: 2 <span style="color: #B52A2A">|</span> Sanidade inicial: 12</p>   
+            <p style="text-align: center; margin-top: 0">PV por NEX: 4 <span style="color: #B52A2A">|</span> PE por NEX: 2 <span style="color: #B52A2A">|</span> Sanidade por NEX: 3</p>   
+            <p style=" text-align: center; color: #B52A2A; font-size: 130%; margin-bottom: 5px;">Perícias Treinadas:</p> 
+            <p style="border-bottom: solid 2px; border-bottom-color: #B52A2A; text-align: center; margin-top: 5px;">Luta ou Pontaria (uma das duas) e Fortitude ou Reflexos (uma das duas), mais uma quantidade de perícias à sua escolha igual a 2 + Intelecto.</p>
+            <p style=" text-align: center; color: #B52A2A; font-size: 130%; margin-bottom: 5px;">Grau de Treinamento:</p> 
+            <p style="border-bottom: solid 2px; border-bottom-color: #B52A2A; text-align: center; margin-top: 5px;">Em NEX 35%, e novamente em NEX 70%, escolha um número de perícias treinadas igual a 3 + Int. Seu grau de treinamento nessas perícias aumenta em um (de treinado para veterano ou de veterano para expert).</p>
+            <p style=" text-align: center; color: #B52A2A; font-size: 130%; margin-bottom: 5px;">Aumento de Atributo:</p> 
+            <p style="border-bottom: solid 2px; border-bottom-color: #B52A2A; text-align: center; margin-top: 5px;">Em NEX 20%, e novamente em NEX 50%, 80% e 95%, aumente um atributo a sua escolha em +1. Você não pode aumentar um atributo além de 5 desta forma.</p>
+            <p style=" text-align: center; color: #B52A2A; font-size: 130%; margin-bottom: 5px;">Proficiências:</p> 
+            <p style="border-bottom: solid 2px; border-bottom-color: #B52A2A; text-align: center; margin-top: 5px;">Armas simples, armas táticas e proteções leves.</p>
+            <p style=" text-align: center; color: #B52A2A; font-size: 130%; margin-bottom: 5px;">Versatilidade:</p> 
+            <p style="border-bottom: solid 2px; border-bottom-color: #B52A2A; text-align: center; margin-top: 5px;">Em NEX 50%, escolha entre receber um poder de combatente ou o primeiro poder de uma trilha de combatente que não a sua.</p>
+            <p style=" text-align: center; color: #B52A2A; font-size: 130%; margin-bottom: 5px;">Habilidade de Combatente: Ataque Especial</p> 
+            <p style="border-bottom: solid 2px; border-bottom-color: #B52A2A; text-align: center; margin-top: 5px;">Quando faz um ataque, você pode gastar 2 PE para receber +5 no teste de ataque ou na rolagem de dano. Conforme avança de NEX, você pode gastar +1 PE para receber mais bônus de +5. Você pode aplicar cada bônus de +5 em ataque ou dano. Por exemplo, em NEX 55%, você pode gastar 4 PE para receber +5 no teste de ataque e +10 na rolagem de dano.</p>      
+    </div>
+    
+    <!-- Tabela de NEX -->
+    <h2 style="text-align: center; color: #B52A2A; font-family: arial black">Tabela habilidades por NEX</h2>
+
+    <div class="tabela">
+        <table style="border: solid 2px; border-color: #222;">
+            <tr>
+                <th><span>5%</span> Ataque especial (2 PE, +5)</th>
+            </tr>
+            <tr>
+                <th><span>10%</span> Habilidade de Trilha</th>
+            </tr>
+            <tr>
+                <th><span>15%</span> Poder de Combatente</th>
+            </tr>
+            <tr>
+                <th><span>20%</span> Aumento de Atributo</th>
+            </tr>
+            <tr>
+                <th><span>25%</span> Ataque especial (3 PE, +10)</th>
+            </tr>
+            <tr>
+                <th><span>30%</span> Poder de Combatente</th>
+            </tr>
+            <tr>
+                <th><span>35%</span> Grau de treinamento</th>
+            </tr>
+            <tr>
+                <th><span>40%</span> Habilidade de Trilha</th>
+            </tr>
+            <tr>
+                <th><span>45%</span> Poder de Combatente</th>
+            </tr>
+            <tr>
+                <th><span>50%</span> Aumento de Atributo + Versatilidade</th>
+            </tr>
+            <tr>
+                <th><span>55%</span> Ataque especial (3 PE, +15)</th>
+            </tr>
+            <tr>
+                <th><span>60%</span> Poder de Combatente</th>
+            </tr>
+            <tr>
+                <th><span>65%</span> Habilidade de Trilha</th>
+            </tr>
+            <tr>
+                <th><span>70%</span> Grau de treinamento</th>
+            </tr>
+            <tr>
+                <th><span>75%</span> Poder de Combatente</th>
+            </tr>
+            <tr>
+                <th><span>80%</span> Aumento de Atributo</th>
+            </tr>
+            <tr>
+                <th><span>85%</span> Ataque especial (4 PE, +20)</th>
+            </tr>
+            <tr>
+                <th><span>90%</span> Poder de Combatente</th>
+            </tr>
+            <tr>
+                <th><span>95%</span> Aumento de Atributo</th>
+            </tr>
+            <tr>
+                <th><span>99%</span> Habilidade de Trilha</th>
+            </tr>
+        </table>
+    </div>
+    
+    <!-- Div Poderes de Combatente -->
+    <h2 style="text-align: center; color: #B52A2A; font-family: arial black; border-bottom: solid 3px; border-top: solid 3px">Poderes de Combatente:</h2>
+
+    <button class="accordion">Acuidade com Arma</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos:  Treinado em Luta e Reflexos.</span>
+        <p>Você passa a usar mais a habilidade ao invés da força, fazendo com que possa atacar com Agilidade ao invés de Força em combate corpo a corpo.</p>
+    </div>
+    
+    <button class="accordion">A Melhor Defesa é o Ataque</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: 40% NEX, Treinado em Luta ou Pontaria.</span>
+        <p>Você passa a entender alguns conceitos mais profundos do combate e das lutas conforme você se tornou mais experiente, se adaptando às lutas rapidamente e cobrindo suas falhas. No inicio de uma Cena de luta, você gasta 4 PE e a cada ataque que acerta, recebe +1 na Defesa.</p>
+    </div>
+    
+    <button class="accordion">Arremesso Múltiplo</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Agilidade 2.</span>
+        <p>Uma vez por rodada, quando faz um ataque com uma arma de arremesso, você pode gastar 1 PE para fazer um ataque adicional contra o mesmo alvo, arremessando outra arma de arremesso.</p>
+    </div>
+
+    <button class="accordion">Armamento Pesado</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Força 2.</span>
+        <p>Você recebe proficiência com armas pesadas.</p>
+    </div>
+    
+    <button class="accordion">Artista Marcial</button>
+    <div class="panel">
+        <p>Seus ataques desarmados podem causar dano mortal e são considerados Armas Simples, e gastando 2 PE você pode fazer um ataque desarmado extra. (Você pode escolher usar Agilidade ou Força em rolagens de Ataque)
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">15% NEX:</span> Seu dano desarmado aumenta para 1D8<br>
+            <span style="color: #B52A2A; font-family: arial black">40% NEX:</span> Seu dano desarmado aumenta para 1D10<br>
+            <span style="color: #B52A2A; font-family: arial black">65% NEX:</span> Seu dano desarmado aumenta para 1D12<br>
+            <span style="color: #B52A2A; font-family: arial black">85% NEX:</span> Seu dano desarmado aumenta para 1D20</p>
+    </div>
+
+    <button class="accordion">Ataque com Escudo</button>
+    <div class="panel">
+        <p>Uma vez por rodada, se estiver empunhando um escudo e ﬁzer a ação agredir, você pode gastar 1 PE para fazer um ataque corpo a corpo extra com o escudo. Este ataque não faz você perder o bônus do escudo na Defesa. (Escudos possuem propriedades de armas improvisadas)</p>
+    </div>
+    
+    <button class="accordion">Ataque de Oportunidade</button>
+    <div class="panel">
+        <p>Sempre que um ser sair voluntariamente de um espaço adjacente ao seu, você pode gastar uma reação e 1 PE para fazer um ataque corpo a corpo contra ele.</p>
+    </div>
+    
+    <button class="accordion">Atlético</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Treinado em Atletismo.</span>
+        <p>Você recebe +2 em testes de atletismo e +3m de Deslocamento.</p>
+    </div>
+    
+    <button class="accordion">Bruto</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Força 2.</span>
+        <p>Você tem uma força exacerbada, que talvez você não saiba controlar ou ela é realmente ela é tanta que você não pode fazer nada. Você soma sua força no seu ataque.</p>
+    </div>
+
+    <button class="accordion">Coneção de Golpes</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: NEX 45% e Força ou Agilidade 3.</span>
+        <p>Sempre que acerta um ataque, pode fazer outro ataque com a mesma arma contra o mesmo alvo, pagando 2 PE por cada ataque já realizado no turno. Ou seja, pode fazer o primeiro ataque extra gastando 2 PE e, se acertar, pode fazer um segundo ataque extra gastando mais 4 PE e assim por diante, até errar um ataque ou atingir o limite de seus PE por rodada.</p>
+    </div>
+    
+    <button class="accordion">Combater com duas Armas</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Força ou Agilidade 3, Treinado em Luta ou Pontaria.</span>
+        <p>Se estiver usando duas armas (e pelo menos uma for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –1D em todos os testes de ataque até o seu próximo turno</p>
+    </div>
+    
+    <button class="accordion">Combater Defensivamente</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Intelecto 2.</span>
+        <p>Quando usa a ação agredir, você pode combater defensivamente. Se fizer isso, até seu próximo turno, sofre –1D em todos os testes de ataque, mas recebe +5 na Defesa e +5 no Bloqueio.</p>
+    </div>
+    
+    <button class="accordion">Combater Ofensivamente</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Força 3.</span>
+        <p>Quando usa a ação agredir, você pode combater ofensivamente. Se fizer isso, até seu próximo turno, sofre –5 na sua Defesa, mas recebe +1d no Dano.</p>
+    </div>
+    
+    <button class="accordion">Dar o Troco</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Vigor 2 e treinado em Fortitude.</span>
+        <p>Quando recebe um ataque e consegue reduzir esse dano a metade com sua redução de dano, você fica orgulhoso da sua força. No próximo ataque que acertar, sua rolagem de dano recebe +5 em dano.</p>
+    </div>
+    
+    <button class="accordion">Determinação Física</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Vigor 2 e treinado em Fortitude.</span>
+        <p>Seu corpo é sua real armadura, simplesmente sua resistência é algo muito acima da média, podendo resistir muito mais a ataques físicos e continuar sem se machucar.
+            <br><br>
+            <span style="color: #B52A2A; font-family: arial black">15% NEX:</span> Resistência Física de 2<br>
+            <span style="color: #B52A2A; font-family: arial black">40% NEX:</span> Resistência Física de 5<br>
+            <span style="color: #B52A2A; font-family: arial black">65% NEX:</span> Resistência Física de 8<br>
+            <span style="color: #B52A2A; font-family: arial black">85% NEX:</span> Resistência Física de 12</p>
+    </div>
+        
+    <button class="accordion">Desprezar os Covardes</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Presença 3.</span>
+        <p>Você recebe redução de dano 5 contra alvos que tenham te derrubado anteriormente, estejam te agarrando, ou que você esteja desprevenido, ou sendo ﬂanqueado.</p>
+    </div>
+        
+    <button class="accordion">Encouraçado</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Proteção Pesada.</span>
+        <p>Se estiver utilizando uma proteção pesada juntamente com um escudo, recebe redução de dano +3.</p>
+    </div>
+        
+    <button class="accordion">Espírito de Luta</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Força e Presença 2.</span>
+        <p>Sua alma clama pela batalha. No início de cada cena de combate você recebe PV temporários equivalentes ao dobro do seu valor de força.</p>
+    </div>
+        
+    <button class="accordion">Grito de Guerra</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Treinado em Intimidação.</span>
+        <p>Você pode gastar uma ação de movimento e 1 PE para soltar um berro feroz. Todos os inimigos em alcance curto devem ficam sobre a condição abalado até o ﬁm da cena. Aliados dentro do alcance podem gastar uma reação para auxiliar a habilidade, que no caso, a adrenalina percorre a todos no combate, fazendo todos fazerem melhor aproveitamento do seu potencial e receberem +3 em uma perícia a escolha de cada.</p>
+    </div>
+        
+    <button class="accordion">Golpe Destruidor</button>
+    <div class="panel">
+        <p>Quando usa a manobra Quebrar, gastando 1 PE, recebe +5 no teste e +2D de dano do mesmo tipo.</p>
+    </div>
+        
+    <button class="accordion">Golpe Pesado</button>
+    <div class="panel">
+        <p>Aumenta o dano de armas corpo a corpo em +1D.</p>
+    </div>
+        
+    <button class="accordion">Parceiro</button>
+    <div class="panel">
+        <p>Você possui um parceiro animal que o acompanha. Escolha os detalhes dele, como nome, aparência e personalidade. Em termos de jogo, é um aliado com as mesmas estatísticas de algum animal e recebe +3 PV por NEX. O parceiro obedece às suas ordens e se arrisca para ajudá-lo. Alternativamente você recebe um Aliado da regra do livro.</p>
+    </div>
+        
+    <button class="accordion">Proteção Leal</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Ataque com Escudo, Treinado em Pontaria.</span>
+        <p>Se for treinado em pontaria e bem sucedido em um arremesso, você pode arremessar seu escudo em um inimigo em alcance curto. O escudo retorna para você ao ﬁnal de seu turno.</p>
+    </div>
+        
+    <button class="accordion">Proteção Pesada</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: NEX 30%.</span>
+        <p>Você recebe proficiência com proteções pesadas.</p>
+    </div>
+        
+    <button class="accordion">Reação Rápida</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Reflexos Defensivos.</span>
+        <p>Você recebe proficiência com proteções pesadas.</p>
+    </div>
+        
+    <button class="accordion">Reflexos Defensivos</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Agilidade 2.</span>
+        <p>Você recebe +2 em Defesa e testes de resistência.</p>
+    </div>
+        
+    <button class="accordion">Saque Rápido</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Treinado em Iniciativa ou Reflexos.</span>
+        <p>Você pode pegar e guardar itens no seu inventário com ações livres.</p>
+    </div>
+        
+    <button class="accordion">Super Protetor</button>
+    <div class="panel">
+        <p>Se você vê um aliado recendo dano dentro de uma área que você poderia chegar com seu deslocamento normal, pode agir fora de seu turno, e gastando suas ações de movimento para chegar no alvo e 1 PE, pode ataca-lo para proteger seu aliado, então faça um teste de ataque contra o do inimigo, se você tirar um resultado maior, pode ataca-lo e interrompe sua rodada, se não, seu aliado recebe normalmente o ataque. (Se possuir a origem Gaudério Abutre, recebe os seus benefícios nesse momento sem precisar tomar o dano no lugar.</p>
+    </div>
+    
+    <button class="accordion">Tática de Combate</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Treinado em Tática.</span>
+        <p>Você pode gastar uma ação de movimento e 2 PE para fazer um teste de Tática, DT 20 para criar uma estratégia e comandar seu grupo. Todos seus aliados em alcance médio recebem +2 em Rolagens de Dano e Ataque até o ﬁm da cena. Para cada 5 pontos que superou a DT do teste, os aliados recebem +3 nas rolagens, ou seja, caso tire 27 no teste os aliados recebem +5, caso tire 32 eles receberiam +8.</p>
+    </div>
+        
+    <button class="accordion">Tanque de Guerra</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Proteção Pesada.</span>
+        <p>Se estiver usando uma proteção pesada, a Defesa e a resistência a dano que ela fornece aumentam em +2.</p>
+    </div>
+        
+    <button class="accordion">Tiro Certeiro</button>
+    <div class="panel">
+        <p><span style="color: #B52A2A; font-family: arial black">Requisitos: Treinado em Pontária.</span>
+        <p>Se estiver usando uma arma com alcance médio, você passa a somar sua Agilidade nas rolagens de dano e ignora a penalidade contra alvos envolvidos em combate corpo a corpo automaticamente sem precisar mirar.</p>
+    </div>
+        
+    <button class="accordion">Transcender</button>
+    <div class="panel">
+        <p>Escolha um poder paranormal. Você recebe o poder escolhido, não ganha Sanidade neste aumento de NEX. Você pode escolher este poder várias vezes.</p>
+        <br><br>
+        <a href="Cap%C3%ADtulo%205%20-%20Poderes%20Paranormais.html">Poderes Paranormais</a>
+    </div>
+        
+    <button class="accordion">Treinamento de Perícia</button>
+    <div class="panel">
+        <p>Escolha três perícias. Você se torna treinado nessas perícias. A partir de NEX 35%, você pode escolher perícias nas quais já é treinado para se tornar veterano. A partir de NEX 70%, pode escolher perícias nas quais já é veterano para se tornar expert. Você pode escolher este poder várias vezes.</p>
+    </div>
+        
+    <!-- Div Trilhas de Combatente -->
+    <h2 style="text-align: center; color: #B52A2A; font-family: arial black; border-bottom: solid 3px; border-top: solid 3px">Trilhas de Combatente Oficial:</h2>
+    
+    <button class="accordion">Aniquilador</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você é treinado para abater alvos com eficiência e velocidade. Suas armas são suas melhores amigas e você cuida tão bem delas quanto de seus companheiros de equipe. Talvez até melhor.</span></p>
+        <p><span style="font-family: arial black; color: #B52A2A">10%: A Favorita</span><br> Escolha uma arma para ser sua favorita, a categoria da arma escolhida é reduzida em I.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">40%: Técnica Secreta</span><br> A categoria da arma favorita passa a ser reduzida em II. Quando faz um ataque com ela, você pode gastar 2 PE para executar um dos efeitos abaixo como parte do ataque. Você pode adicionar mais efeitos gastando +2 PE por efeito adicional.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">Amplo:</span><br> O ataque pode atingir um alvo adicional em seu alcance e adjacente ao original (use o mesmo teste de ataque para ambos).
+        <br>
+        <span style="font-family: arial black; color: #B52A2A">Destruidor:</span><br> Aumenta o multiplicador de crítico da arma em +1.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">65%: Técnica Sublime</span><br> Você adiciona os seguintes efeitos à lista de sua Técnica Secreta e a categoria diminui em III:</p>
+        <p><span style="font-family: arial black; color: #B52A2A">Letal:</span><br> Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.
+        <br>
+        <span style="font-family: arial black; color: #B52A2A">Perfurante:</span><br> Ignora até 5 pontos de resistência a dano de qualquer tipo do alvo. Você pode escolher esse efeito duas vezes para ignorar até 10 pontos de resistência a dano.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">99%: Aniquilar</span><br> A categoria da arma favorita passa a ser reduzida em IV, ela recebe +2 na margem de ameaça e seu dano aumenta em um dado do mesmo tipo.</p>
+    </div>
+    
+        <button class="accordion">Comandante de Campo</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Sem um oficial uma batalha não passa de uma briga de bar. Você é treinado para coordenar e auxiliar seus companheiros em combate, tomando decisões rápidas e tirando melhor proveito da situação e do talento de seus aliados.</span></p>
+        <p><span style="font-family: arial black; color: #B52A2A">10%: Inspirar Confiança</span><br> Sua liderança inspira seus aliados. Você pode gastar uma reação e 2 PE para fazer um aliado em alcance curto rolar novamente um teste recém realizado.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">40%: Antecipação</span><br> Quando um inimigo for atacar algum aliado em Alcance Curto, você pode antecipar o ataque e alertar seu aliado gastando uma reação e 3 PE, dando +5 de Defesa ao aliado.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">65%: Brecha na Guarda</span><br> Uma vez por rodada, quando um aliado causar dano em um inimigo que esteja em seu alcance curto, você pode gastar uma reação e 2 PE para que você ou outro aliado em alcance curto faça um ataque adicional contra o mesmo inimigo. Além disso, o alcance de inspirar confiança e estrategista aumenta para médio.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">99%: Oficial Comandante</span><br> Você pode gastar uma ação padrão e 5 PE para que cada aliado que você possa ver em alcance médio receba uma ação padrão adicional no próximo turno dele.</p>
+    </div>
+    
+        <button class="accordion">Guerreiro</button>
+    <div class="panel">
+        <p><span style="font-family: arial black">Você treinou sua musculatura e movimentos a ponto de transformar seu corpo em uma verdadeira arma. Com golpes corpo a corpo tão poderosos quanto uma bala, você encara os perigos de frente.</span></p>
+        <p><span style="font-family: arial black; color: #B52A2A">10%: Técnica Letal</span><br> Você recebe um aumento de +2 na margem de ameaça com todos os seus ataques corpo a corpo.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">40%: Revidar</span><br> Sempre que bloquear um ataque, você pode gastar uma reação e 2 PE para fazer um ataque corpo a corpo no inimigo que o atacou.</p>
+        <p><span style="font-family: arial black; color: #B52A2A">65%: Força Opressora</span><br> Quando acerta um ataque corpo a corpo, você pode gastar 1 PE para realizar uma manobra contra o alvo do ataque como ação livre. Se escolher empurrar, recebe um bônus de +5 para cada 8 pontos de dano que causou no alvo. Se escolher derrubar e vencer no teste oposto, você pode gastar 1 PE para fazer um ataque adicional contra o alvo caído.</p>   
+        <p><span style="font-family: arial black; color: #B52A2A">99%: Potência Máxima</span><br> Quando usa seu Ataque Especial com armas corpo a corpo, todos os bônus numéricos são dobrados. Por exemplo, se usar 5 PE para receber +5 no ataque e +15 no dano, você recebe +10 no ataque e +30 no dano.</p>
+    </div>
+    
+        <!--Script Botões-->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+        </script>
+
+</body>
+</html>
